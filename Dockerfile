@@ -1,10 +1,11 @@
-# Galaxy - Exom Sequencing Pipeline
+# Galaxy - Exome Sequencing Pipeline
 
 FROM bgruening/galaxy-ngs-preprocessing
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
-ENV GALAXY_CONFIG_BRAND Exom Sequencing Pipeline
+ENV GALAXY_CONFIG_BRAND Exome Sequencing
+ENV ENABLE_TTS_INSTALL True
 
 # Enable TTS installation
 # RUN add-tool-shed --url 'http://testtoolshed.g2.bx.psu.edu/' --name 'Test Tool Shed'
