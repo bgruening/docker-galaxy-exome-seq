@@ -1,4 +1,4 @@
-Galaxy Image for EXOM sequencing
+Galaxy Image for exome sequencing
 ================================
 
 Allele-specific mapping tools and workflows
