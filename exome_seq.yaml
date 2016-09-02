@@ -105,7 +105,7 @@ tools:
 
 - name: bwa_wrappers
   owner: devteam
-  tool_panel_section_id: solexa_tools
+  tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 
 - name: vt_variant_tools
