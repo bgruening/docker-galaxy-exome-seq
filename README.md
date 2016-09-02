@@ -31,7 +31,7 @@ Galaxy Docker repository for Exome sequencing data analysis (Galaxy exome sequen
 To launch:
 
 ```
-docker run -i -t -p 8080:80 bgruening/galaxy-exom-seq
+docker run -i -t -p 8080:80 bgruening/galaxy-exome-seq
 ```
 
 Explanation of this command line:
@@ -44,7 +44,7 @@ port 8080 on your host.
   Inside the container a Apache Webserver is running on port 80 and that port
   can be bound to a local port on your host computer. With this parameter you
   can access your Galaxy instance via [http://localhost:8080](http://localhost:8080)
-- `bgruening/galaxy-exom-seq` is the Image/Container name,
+- `bgruening/galaxy-exome-seq` is the Image/Container name,
 that directs docker to the correct path in the [docker index](https://index.docker.io/u/bgruening/galaxy-training-exome-seq/).
 - `-d` will start the docker container in daemon mode
 
@@ -59,7 +59,7 @@ To install Tool Shed repositories or to save your data, you need to export the
 computed data to the host computer with
 
 ```
-docker run -d -p 8080:80 -v /home/user/galaxy_storage/:/export/ bgruening/galaxy-exom-seq
+docker run -d -p 8080:80 -v /home/user/galaxy_storage/:/export/ bgruening/galaxy-exome-seq
 ```
 
 With the additional `-v /home/user/galaxy_storage/:/export/` parameter, Docker
@@ -91,7 +91,7 @@ When you are done with the current Docker container, you can stop it:
 For an interactive session, execute:
 
 ```
-docker run -i -t -p 8080:80 bgruening/galaxy-exom-seq
+docker run -i -t -p 8080:80 bgruening/galaxy-exome-seq
 ```
 
 Then, run the `startup` script by your own, to start PostgreSQL, Apache and Galaxy.
@@ -103,8 +103,8 @@ image:
 
 - Clone this repository
 - Move to the current directory
-- Build an image of the docker content with `docker build -t galaxy-exom-seq .`
-- Run your container with `docker run -d -p 8080:80 galaxy-exom-seq`
+- Build an image of the docker content with `docker build -t galaxy-exome-seq .`
+- Run your container with `docker run -d -p 8080:80 galaxy-exome-seq`
 - Access your Galaxy instance via [http://localhost:8080](http://localhost:8080)
 
 Once you are done with your container, you can stop and deleted it as described
