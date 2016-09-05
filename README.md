@@ -1,8 +1,10 @@
+[![Build Status](https://travis-ci.org/bgruening/galaxy-exome-seq.svg?branch=master)](https://travis-ci.org/bgruening/galaxy-exome-seq)
+[![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-exome-seq/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-exome-seq)
+
 Galaxy Image for Exome sequencing analysis
 ================================
 
-Galaxy Docker repository for Exome sequencing data analysis (Galaxy exome sequencing flavor)
-
+:whale: Galaxy Docker repository for Exome sequencing data analysis (Galaxy exome sequencing flavor)
 
 # Installed tools
 
