@@ -30,7 +30,7 @@ Galaxy Image for Exome sequencing analysis
 To launch:
 
 ```
-docker run -i -t -p 8080:80 bgruening/galaxy-exome-seq
+docker run -d -p 8080:80 -p 8021:21 -p 8022:22 bgruening/galaxy-exome-seq
 ```
 
 For more details about this command line or specific usage, please consult the
