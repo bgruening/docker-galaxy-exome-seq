@@ -47,10 +47,10 @@ tools:
   install_resolver_dependencies: True
   install_tool_dependencies: False
 
-- name: vcfcombine
+- name: suite_vcflib_14_08
   owner: devteam
   tool_panel_section_label: "VCF Tools"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
   install_tool_dependencies: False
 
@@ -67,12 +67,6 @@ tools:
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
   install_tool_dependencies: False
-
-- name: vcfallelicprimitives
-  owner: devteam
-  tool_panel_section_label: "VCF Tools"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
 
 - name: snpsift
   owner: iuc
@@ -100,7 +94,6 @@ tools:
   tool_panel_section_label: "GATK Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  install_tool_dependencies: False
 
 - name: suite_samtools_1_2
   owner: devteam
@@ -114,22 +107,19 @@ tools:
   tool_panel_section_label: "GATK Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  install_tool_dependencies: False
 
 - name: variant_filtration
   owner: devteam
   tool_panel_section_label: "GATK Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  install_tool_dependencies: False
 
 - name: data_manager_bwa_index_builder
   owner: devteam
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  install_tool_dependencies: False
 
-- name: bwa_wrappers
+- name: bwa
   owner: devteam
   tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
@@ -141,14 +131,6 @@ tools:
   tool_panel_section_label: "VCF Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  install_tool_dependencies: False
-
-- name: suite_vcflib_14_08
-  owner: devteam
-  tool_panel_section_label: "VCF Tools"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
 
 - name: bedtools
   owner: iuc
