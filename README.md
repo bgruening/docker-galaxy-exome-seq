@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bgruening/galaxy-exome-seq.svg?branch=master)](https://travis-ci.org/bgruening/galaxy-exome-seq)
+[![Build Status](https://travis-ci.org/bgruening/docker-galaxy-exome-seq.svg?branch=master)](https://travis-ci.org/bgruening/docker-galaxy-exome-seq)
 [![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-exome-seq/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-exome-seq)
 
 Galaxy Image for Exome sequencing analysis
