@@ -1,6 +1,6 @@
 # Galaxy - Exome Sequencing Pipeline
 
-FROM bgruening/galaxy-ngs-preprocessing
+FROM bgruening/galaxy-ngs-preprocessing:16.10
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
