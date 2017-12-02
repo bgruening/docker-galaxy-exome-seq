@@ -70,15 +70,6 @@ tools:
   owner: devteam
   tool_panel_section_label: "SAM Tools"
 
-- name: variant_select
-  owner: devteam
-  tool_panel_section_label: "VCF Tools"
-
-- name: variant_filtration
-  owner: devteam
-  tool_panel_section_label: "VCF Tools"
-
-
 - name: vt_variant_tools
   owner: iuc
   tool_panel_section_label: "VCF Tools"
