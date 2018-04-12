@@ -14,7 +14,6 @@ Galaxy Image for Exome sequencing analysis
  * [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2)
  * [SNPEff](http://snpeff.sourceforge.net/)
  * [FASTQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
- * [GATK2](https://www.broadinstitute.org/gatk/)
  * [SAMTools](http://samtools.sourceforge.net/)
  * [FreeBayes](https://github.com/ekg/freebayes)
  * [GEMINI](http://gemini.readthedocs.org)
