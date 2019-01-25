@@ -73,3 +73,19 @@ tools:
 - name: vt_variant_tools
   owner: iuc
   tool_panel_section_label: "VCF Tools"
+
+- name: varscan_mpileup
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+
+- name: varscan_somatic
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+
+- name: varscan_copynumber
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+
+- name: suite_varscan
+  owner: iuc
+  tool_panel_section_label: Variant Calling
