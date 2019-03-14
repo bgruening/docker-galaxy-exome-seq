@@ -54,6 +54,10 @@ tools:
   owner: bgruening
   tool_panel_section_label: "Text Manipulation"
 
+- name: column_arrange_by_header
+  owner: bgruening
+  tool_panel_section_label: "Text Manipulation"
+
 - name: freebayes
   owner: devteam
   tool_panel_section_label: "Phenotype Association"
