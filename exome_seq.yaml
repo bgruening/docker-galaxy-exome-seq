@@ -50,6 +50,10 @@ tools:
   owner: devteam
   tool_panel_section_label: "VCF Tools"
 
+- name: text_processing
+  owner: bgruening
+  tool_panel_section_label: "Text Manipulation"
+
 - name: freebayes
   owner: devteam
   tool_panel_section_label: "Phenotype Association"
