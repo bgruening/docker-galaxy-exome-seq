@@ -25,6 +25,10 @@ Galaxy Image for Exome sequencing analysis
  - [Docker](https://docs.docker.com/installation/) for Linux / Windows / OSX
  - [Kitematic](https://kitematic.com/) for Windows / OS-X
 
+# Training
+
+You can find some interesting training material about [Identification of somatic and germline variants from tumor and normal sample pairs](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/tutorial.html) at the [Galaxy training network](https://training.galaxyproject.org/training-material/).
+
 # Usage
 
 To launch:
