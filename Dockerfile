@@ -10,3 +10,4 @@ ENV GALAXY_CONFIG_BRAND Exome Sequencing
 ADD exome_seq.yaml $GALAXY_ROOT/tools.yaml
 RUN install-tools $GALAXY_ROOT/tools.yaml && \
     /tool_deps/_conda/bin/conda clean --tarballs
+
