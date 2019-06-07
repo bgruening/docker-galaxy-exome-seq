@@ -15,8 +15,6 @@ Galaxy Image for Genomic Variant Analysis
 ## NGS reads mapping
  * [BWA](http://bio-bwa.sourceforge.net)
  * [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2)
-## SAM/BAM processing
- * [Samtools](https://www.htslib.org)
 ## Variant calling /annotation
  * [FreeBayes](https://github.com/ekg/freebayes)
  * [BCFtools](https://www.htslib.org)
