@@ -1,6 +1,6 @@
 # Galaxy - Genomic Variant Analysis Pipelines
 
-FROM bgruening/galaxy-stable
+FROM quay.io/bgruening/galaxy:19.01
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
