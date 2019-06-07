@@ -53,7 +53,7 @@ tools:
   owner: bgruening
   revisions:
   - 0a8c6b61f0f4
-  tool_panel_section_label: "Text Manipulation"
+  tool_panel_section_id: textutil
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: mimodd_main
   owner: wolma
