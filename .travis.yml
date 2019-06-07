@@ -7,7 +7,7 @@ services:
   - docker
 
 env:
-  - TOX_ENV=py27
+  - TOX_ENV=py27 GALAXY_VERSION=release_19.01
 
 git:
   submodules: false

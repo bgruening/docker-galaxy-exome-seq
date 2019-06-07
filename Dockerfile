@@ -1,13 +1,31 @@
-# Galaxy - Exome Sequencing Pipeline
+# Galaxy - Genomic Variant Analysis Pipelines
 
-FROM bgruening/galaxy-ngs-preprocessing:19.01
+FROM bgruening/galaxy-stable
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
-ENV GALAXY_CONFIG_BRAND Exome Sequencing
+ENV GALAXY_CONFIG_BRAND Genomic Variant Analysis
+ENV GALAXY_CONFIG_SANITIZE_ALL_HTML false
 
 # Install tools
-ADD exome_seq.yaml $GALAXY_ROOT/tools.yaml
-RUN install-tools $GALAXY_ROOT/tools.yaml && \
-    /tool_deps/_conda/bin/conda clean --tarballs
+ADD data_managers.yaml $GALAXY_ROOT/data_managers.yaml
+RUN install-tools $GALAXY_ROOT/data_managers.yaml && \
+    /tool_deps/_conda/bin/conda clean --tarballs && \
+    rm /export/galaxy-central/ -rf
+ADD mimod.yaml $GALAXY_ROOT/tools1.yaml
+RUN install-tools $GALAXY_ROOT/tools1.yaml && \
+    /tool_deps/_conda/bin/conda clean --tarballs && \
+    rm /export/galaxy-central/ -rf
+ADD genetic_disease.yaml $GALAXY_ROOT/tools2.yaml
+RUN install-tools $GALAXY_ROOT/tools2.yaml && \
+    /tool_deps/_conda/bin/conda clean --tarballs && \
+    rm /export/galaxy-central/ -rf
+ADD somatic_variants.yaml $GALAXY_ROOT/tools3.yaml
+RUN install-tools $GALAXY_ROOT/tools3.yaml && \
+    /tool_deps/_conda/bin/conda clean --tarballs && \
+    rm /export/galaxy-central/ -rf
+ADD all_latest.yaml $GALAXY_ROOT/tools4.yaml
+RUN install-tools $GALAXY_ROOT/tools4.yaml && \
+    /tool_deps/_conda/bin/conda clean --tarballs && \
+    rm /export/galaxy-central/ -rf
 
