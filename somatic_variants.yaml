@@ -101,12 +101,6 @@ tools:
   - b2f1f75d49c4
   tool_panel_section_label: "Reporting"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
-- name: varscan_somatic
-  owner: iuc
-  revisions:
-  - b79bb8b09822
-  tool_panel_section_label: "Variant Calling"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: trimmomatic
   owner: pjbriggs
   revisions:
