@@ -95,11 +95,35 @@ tools:
   - 9da02be9c6cc
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: qualimap_bamqc
+  owner: iuc
+  revisions:
+  - 4a89c6f84425
+  tool_panel_section_label: "Quality Control"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: qualimap_multi_bamqc
+  owner: iuc
+  revisions:
+  - adfe9fda2c5f
+  tool_panel_section_label: "Quality Control"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: multiqc
   owner: iuc
   revisions:
   - b2f1f75d49c4
-  tool_panel_section_label: "Reporting"
+  tool_panel_section_label: "Display Data"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: jbrowse
+  owner: iuc
+  revisions:
+  - 9de82b4963e6
+  tool_panel_section_label: "Display Data"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: circos
+  owner: iuc
+  revisions:
+  - 014a21767ac4
+  tool_panel_section_label: "Display Data"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: trimmomatic
   owner: pjbriggs
@@ -137,3 +161,10 @@ tools:
   - 0c8f7322f8fc
   tool_panel_section_label: "Gemini"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: deeptools_bam_coverage
+  owner: bgruening
+  revisions:
+  - 7a7fd0f5f15d
+  tool_panel_section_label: "deepTools"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+

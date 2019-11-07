@@ -64,7 +64,15 @@ tools:
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: multiqc
   owner: iuc
-  tool_panel_section_label: "Reporting"
+  tool_panel_section_label: "Display Data"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: jbrowse
+  owner: iuc
+  tool_panel_section_label: "Display Data"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: circos
+  owner: iuc
+  tool_panel_section_label: "Display Data"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: fastqc
   owner: devteam
@@ -72,6 +80,14 @@ tools:
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: trimmomatic
   owner: pjbriggs
+  tool_panel_section_label: "Quality Control"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: qualimap_bamqc
+  owner: iuc
+  tool_panel_section_label: "Quality Control"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: qualimap_multi_bamqc
+  owner: iuc
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: bwa
@@ -129,6 +145,10 @@ tools:
 - name: gemini_query
   owner: iuc
   tool_panel_section_label: "Gemini"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: deeptools_bam_coverage
+  owner: bgruening
+  tool_panel_section_label: "deepTools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: mimodd_main
   owner: wolma
