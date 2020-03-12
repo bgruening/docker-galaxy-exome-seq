@@ -110,6 +110,10 @@ tools:
   owner: devteam
   tool_panel_section_label: "SAM Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: samtools_view
+  owner: iuc
+  tool_panel_section_label: "SAM Tools"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: samtools_calmd
   owner: devteam
   tool_panel_section_label: "SAM Tools"
@@ -122,6 +126,22 @@ tools:
   owner: iuc
   tool_panel_section_label: "Variant Calling"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: lofreq_indelqual
+  owner: iuc
+  tool_panel_section_label: "Variant Calling"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: lofreq_alnqual
+  owner: iuc
+  tool_panel_section_label: "Variant Calling"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: lofreq_filter
+  owner: iuc
+  tool_panel_section_label: "Variant Calling"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: lofreq_call
+  owner: iuc
+  tool_panel_section_label: "Variant Calling"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bcftools_norm
   owner: iuc
   tool_panel_section_label: "BCF Tools"

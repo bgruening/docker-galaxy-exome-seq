@@ -2,10 +2,10 @@
 [![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-exome-seq/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-exome-seq)
 [![Gitter](https://badges.gitter.im/bgruening/docker-galaxy-stable.svg)](https://gitter.im/bgruening/docker-galaxy-stable?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-Galaxy Image for Exome/Whole-Genome Sequencing Analysis
-=======================================================
+Galaxy Image for Genomic Variant Analysis
+=========================================
 
-:whale: Galaxy Docker repository for exome sequencing data analysis (Galaxy exome sequencing flavor)
+:whale: Galaxy Docker repository for genomic variant analysis from NGS data (Galaxy Variant Analysis flavor)
 
 # Installed tools
 
@@ -15,6 +15,8 @@ Galaxy Image for Exome/Whole-Genome Sequencing Analysis
  * [FASTQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
  * [SAMTools](http://samtools.sourceforge.net/)
  * [FreeBayes](https://github.com/ekg/freebayes)
+ * [VarScan](http://dkoboldt.github.io/varscan/)
+ * [lofreq](http://csb5.github.io/lofreq/)
  * [GEMINI](http://gemini.readthedocs.org)
  * [deepTools](http://fidelram.github.io/deepTools/)
  * [MultiQC](https://multiqc.info/)
@@ -25,6 +27,7 @@ Galaxy Image for Exome/Whole-Genome Sequencing Analysis
 # Requirements
 
  - [Docker](https://docs.docker.com/installation/) for Linux / Windows / OSX
+ - [podman](https://podman.io/) as a convenient alternative for rpm-based Linux distributions
  - [Kitematic](https://kitematic.com/) for Windows / OS-X
 
 # Training
