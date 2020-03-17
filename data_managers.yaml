@@ -50,11 +50,11 @@ tools:
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
   revisions:
-  - 1865e693d8b2
+  - f8418a1bf7d0
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
   revisions:
-  - 46066df8813d
+  - 37580590ecfb
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   revisions:
