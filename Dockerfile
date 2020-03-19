@@ -24,8 +24,3 @@ ADD somatic_variants.yaml $GALAXY_ROOT/tools3.yaml
 RUN install-tools $GALAXY_ROOT/tools3.yaml && \
     /tool_deps/_conda/bin/conda clean --tarballs && \
     rm /export/galaxy-central/ -rf
-ADD all_latest.yaml $GALAXY_ROOT/tools4.yaml
-RUN install-tools $GALAXY_ROOT/tools4.yaml && \
-    /tool_deps/_conda/bin/conda clean --tarballs && \
-    rm /export/galaxy-central/ -rf
-
