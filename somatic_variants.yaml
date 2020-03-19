@@ -138,7 +138,7 @@ tools:
 - name: qualimap_bamqc
   owner: iuc
   revisions:
-  - e7fd6754d093
+  - 4a89c6f84425
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: qualimap_multi_bamqc
@@ -209,7 +209,7 @@ tools:
 - name: deeptools_bam_coverage
   owner: bgruening
   revisions:
-  - bb1e4f63e0e6
+  - 7a7fd0f5f15d
   tool_panel_section_label: "deepTools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 
