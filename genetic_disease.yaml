@@ -73,6 +73,14 @@ tools:
   - 9129584416e2
   tool_panel_section_label: "SAM Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
+# samtool_filter2 is still used in the GTN exome-seq tutorial
+# can be removed once tutorial is switched over to samtools_view
+- name: samtool_filter2
+  owner: devteam
+  revisions:
+  - 649a225999a5
+  tool_panel_section_label: "SAM Tools"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: gemini_load
   owner: iuc
   revisions:

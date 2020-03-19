@@ -59,6 +59,14 @@ tools:
   - 6c6d26ff01ff
   tool_panel_section_id: textutil
   tool_shed_url: https://toolshed.g2.bx.psu.edu
+# cut_columns tool gets mentioned as alternative to
+# column_arrange_by_header in GTN somatic variants tutorial
+- name: cut_columns
+  owner: devteam
+  revisions:
+  - cec635fab700
+  tool_panel_section_id: textutil
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: samtools_stats
   owner: devteam
   revisions:
