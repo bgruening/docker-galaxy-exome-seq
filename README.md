@@ -60,7 +60,9 @@ about this with more details in the [upstream documentation](https://docs.galaxy
 or by studying [advanced examples configurations](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/config/sample/job_conf.xml.sample_advanced).
 
 For the Miracum project we have included one example [`job_conf.xml`](configs/job_conf.xml.miracum_sample).
-This example configuration uses SLURM as scheduler and assignes 8 cores (`slurm-8c`) to the tools `lofreq_call` and `bwa_mem`.
+This example configuration uses SLURM as scheduler and assignes 8 cores [(`slurm-8c`)](https://github.com/bgruening/docker-galaxy-exome-seq/blob/master/configs/job_conf.xml.miracum_sample#L165) to the tools `lofreq_call` and `bwa_mem`. By [default](https://github.com/bgruening/docker-galaxy-exome-seq/blob/master/configs/job_conf.xml.miracum_sample#L19) every tool gets one core.
+
+To use this example configuration, or another one, please copy the `job_conf.xml.miracum_sample` in your export folder into the Galaxy `config` folder. 
 
 # Contributors
 
