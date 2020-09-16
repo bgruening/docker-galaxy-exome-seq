@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/bgruening/docker-galaxy-exome-seq.svg?branch=master)](https://travis-ci.org/bgruening/docker-galaxy-exome-seq)
-[![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-exome-seq/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-exome-seq)
+[![Build Status](https://travis-ci.com/bgruening/docker-galaxy-exome-seq.svg?branch=master)](https://travis-ci.com/bgruening/docker-galaxy-exome-seq)[![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-exome-seq/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-exome-seq)
 [![Gitter](https://badges.gitter.im/bgruening/docker-galaxy-stable.svg)](https://gitter.im/bgruening/docker-galaxy-stable?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Galaxy Image for Genomic Variant Analysis
