@@ -61,7 +61,19 @@ or by studying [advanced examples configurations](https://github.com/galaxyproje
 For the Miracum project we have included one example [`job_conf.xml`](configs/job_conf.xml.miracum_sample).
 This example configuration uses SLURM as scheduler and assignes 8 cores [(`slurm-8c`)](https://github.com/bgruening/docker-galaxy-exome-seq/blob/master/configs/job_conf.xml.miracum_sample#L165) to the tools `lofreq_call` and `bwa_mem`. By [default](https://github.com/bgruening/docker-galaxy-exome-seq/blob/master/configs/job_conf.xml.miracum_sample#L19) every tool gets one core.
 
-To use this example configuration, or another one, please copy the `job_conf.xml.miracum_sample` in your export folder into the Galaxy `config` folder. 
+To use this example configuration, or another one, please copy the `job_conf.xml.miracum_sample` in your export folder into the Galaxy `config` folder
+(e.g. export/galaxy-central/config/job_conf.xml). If you copy your file to a different place (it needs to be accessible from inside the container) you can
+also point Galaxy duing startup to this special config file with: `-e GALAXY_CONFIG_JOB_CONFIG_FILE=/export/job_conf.xml`
+
+## Update Chrom-size files
+
+From time to time, especially if you want to add new reference genome, it might be necessary to also deploy new chrom-size files. You can do this with
+
+```bash
+docker exec -t -i your_galaxy_conainer bash
+cd /galaxy-central
+python ./cron/build_chrom_db.py /export/galaxy-central/tool-data/shared/ucsc/chrom/
+```
 
 # Contributors
 
