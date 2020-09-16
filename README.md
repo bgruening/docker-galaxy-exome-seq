@@ -51,7 +51,7 @@ docker run -d -p 8080:80 -p 8021:21 -p 8022:22 bgruening/galaxy-exome-seq
 For more details about this command line or specific usage, please consult the
 [`README`](https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md) of the main Galaxy Docker image, on which the current image is based.
 
-# Advanced cluser configuration
+# Advanced cluster configuration
 
 Galaxy and every tool can be configured to make optimal usage of cluster resources.
 For this a configuration file with the name `job_conf.xml` is needed. You can read more
