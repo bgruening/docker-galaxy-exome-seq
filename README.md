@@ -52,6 +52,16 @@ docker run -d -p 8080:80 -p 8021:21 -p 8022:22 bgruening/galaxy-exome-seq
 For more details about this command line or specific usage, please consult the
 [`README`](https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md) of the main Galaxy Docker image, on which the current image is based.
 
+# Advanced cluser configuration
+
+Galaxy and every tool can be configured to make optimal usage of cluster resources.
+For this a configuration file with the name `job_conf.xml` is needed. You can read more
+about this with more details in the [upstream documentation](https://docs.galaxyproject.org/en/latest/admin/jobs.html)
+or by studying [advanced examples configurations](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/config/sample/job_conf.xml.sample_advanced).
+
+For the Miracum project we have included one example [`job_conf.xml`](configs/job_conf.xml.miracum_sample).
+This example configuration uses SLURM as scheduler and assignes 8 cores (`slurm-8c`) to the tools `lofreq_call` and `bwa_mem`.
+
 # Contributors
 
 - Bjoern Gruening
