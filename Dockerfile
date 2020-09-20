@@ -8,7 +8,7 @@ ENV GALAXY_CONFIG_BRAND Genomic Variant Analysis
 ENV GALAXY_CONFIG_SANITIZE_ALL_HTML false
 
 ADD install-tools.sh /usr/bin/install-tools
-
+RUN chmod +x /usr/bin/install-tools
 # Install tools
 ADD data_managers.yaml $GALAXY_ROOT/data_managers.yaml
 RUN install-tools $GALAXY_ROOT/data_managers.yaml && \
