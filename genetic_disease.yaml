@@ -58,14 +58,14 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
-  - 8f92c2b26e6d
+  - 74aebe30fb52
   tool_panel_section_label: "Variant Annotation"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: multiqc
   owner: iuc
   revisions:
-  - b2f1f75d49c4
-  tool_panel_section_label: "Reporting"
+  - 3d93dd18d9f8
+  tool_panel_section_label: "Display Data"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: samtools_rmdup
   owner: devteam
@@ -84,7 +84,7 @@ tools:
 - name: gemini_load
   owner: iuc
   revisions:
-  - b2c25142267e
+  - 45296e47d565
   tool_panel_section_label: "Gemini"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: gemini_inheritance
@@ -102,7 +102,7 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
-  - 9da02be9c6cc
+  - e7b2202befea
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: bamtools_filter
