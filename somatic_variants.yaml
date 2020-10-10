@@ -157,12 +157,6 @@ tools:
   - dfa082f84068
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
-- name: bwa
-  owner: devteam
-  revisions:
-  - 3fe632431b68
-  tool_panel_section_label: "Mapping"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: gemini_query
   owner: iuc
   revisions:
