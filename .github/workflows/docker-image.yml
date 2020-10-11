@@ -33,4 +33,9 @@ jobs:
         run: make install
       - name: Run Bioblend tests
         run: make test_bioblend
+      - name: Archive Workflow testing artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: workflow-testing-report
+          path: ./tool_test_output.html
 
