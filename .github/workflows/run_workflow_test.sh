@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 pip install planemo
 
