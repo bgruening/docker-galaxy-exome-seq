@@ -23,8 +23,6 @@ jobs:
       - name: Run the newly built Docker image
         run: |
           make docker_run
-      - name: Run Workflow tests
-        run: bash .github/workflows/run_workflow_test.sh
       - name: Check API availability
         run: make test_api
       - name: Run FTP tests
@@ -33,9 +31,11 @@ jobs:
         run: make install
       - name: Run Bioblend tests
         run: make test_bioblend
+      - name: Run Workflow tests
+        run: bash .github/workflows/run_workflow_test.sh
       - name: Archive Workflow testing artifacts
         uses: actions/upload-artifact@v2
+        if: always()
         with:
           name: workflow-testing-report
           path: ./tool_test_output.html
-
