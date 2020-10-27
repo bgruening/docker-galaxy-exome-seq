@@ -52,7 +52,7 @@ if [[ ! -z $GALAXY_DEFAULT_ADMIN_USER ]]
         )
 fi
 
-shed-tools install -g "http://localhost:$PORT" -a fakekey -t "$1"
+shed-tools install -g "http://localhost:$PORT" -a "$GALAXY_DEFAULT_ADMIN_KEY" -t "$1"
 
 exit_code=$?
 

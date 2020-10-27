@@ -7,6 +7,7 @@ MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 ENV GALAXY_CONFIG_BRAND Genomic Variant Analysis
 ENV GALAXY_CONFIG_SANITIZE_ALL_HTML false
 
+RUN /usr/bin/python -m pip install bioblend==0.13.0 -U
 ADD install-tools.sh /usr/bin/install-tools
 RUN chmod +x /usr/bin/install-tools
 RUN chown galaxy:galaxy /galaxy-central/ -R
