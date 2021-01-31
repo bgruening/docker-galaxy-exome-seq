@@ -70,14 +70,12 @@ tools:
 - name: samtools_stats
   owner: devteam
   revisions:
-  - 793ad847121d
   - 145f6d74ff5e
   tool_panel_section_label: "SAM Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: samtools_rmdup
   owner: devteam
   revisions:
-  - 9129584416e2
   - 586f9e1cdb2b
   tool_panel_section_label: "SAM Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
@@ -87,16 +85,9 @@ tools:
   - b01db2684fa5
   tool_panel_section_label: "SAM Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: bamtools_filter
-  owner: devteam
-  revisions:
-  - bd735cae4ce6
-  tool_panel_section_label: "SAM Tools"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: samtools_calmd
   owner: devteam
   revisions:
-  - e65c2cd0964c
   - 06dc50b7b711
   tool_panel_section_label: "SAM Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
@@ -109,7 +100,6 @@ tools:
 - name: varscan_somatic
   owner: iuc
   revisions:
-  - 4e97191a1ff7
   - a57606054bd7
   tool_panel_section_label: "Variant Calling"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
@@ -137,12 +127,6 @@ tools:
   - dfadc322b065
   tool_panel_section_label: "Variant Calling"
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: fastqc
-  owner: devteam
-  revisions:
-  - 9da02be9c6cc
-  tool_panel_section_label: "Quality Control"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: qualimap_bamqc
   owner: iuc
   revisions:
@@ -154,13 +138,6 @@ tools:
   revisions:
   - adfe9fda2c5f
   tool_panel_section_label: "Quality Control"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-- name: multiqc
-  owner: iuc
-  revisions:
-  - b2f1f75d49c4
-  - 3d93dd18d9f8
-  tool_panel_section_label: "Display Data"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: jbrowse
   owner: iuc
@@ -180,37 +157,21 @@ tools:
   - dfa082f84068
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
-- name: bwa
-  owner: devteam
-  revisions:
-  - 01ac0a5fedc3
-  tool_panel_section_label: "Mapping"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: gemini_query
   owner: iuc
   revisions:
-  - cd00221d67cb
   - da74170c55c7
   tool_panel_section_label: "Gemini"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-- name: snpeff
-  owner: iuc
-  revisions:
-  - 8f92c2b26e6d
-  - 74aebe30fb52
-  tool_panel_section_label: "Variant Annotation"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: gemini_load
   owner: iuc
   revisions:
-  - b2c25142267e
   - 45296e47d565
   tool_panel_section_label: "Gemini"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: gemini_annotate
   owner: iuc
   revisions:
-  - 0c8f7322f8fc
   - f2f3bc622a16
   tool_panel_section_label: "Gemini"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
