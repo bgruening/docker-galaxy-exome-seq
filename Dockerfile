@@ -4,8 +4,11 @@ FROM quay.io/bgruening/galaxy:20.09
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
-ENV GALAXY_CONFIG_BRAND Genomic Variant Analysis
+ENV GALAXY_CONFIG_BRAND MIRACUM Genomic Variant Analysis
 ENV GALAXY_CONFIG_SANITIZE_ALL_HTML false
+
+# MIRACUM-style PDF Reports
+ADD markdown_export.css $GALAXY_CONFIG_DIR/markdown_export.css
 
 # Install tools
 ADD data_managers.yaml $GALAXY_ROOT/data_managers.yaml
