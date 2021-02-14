@@ -75,6 +75,12 @@ tools:
   - 06dc50b7b711
   tool_panel_section_label: "SAM Tools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: bedtools
+  owner: iuc
+  revisions:
+  - 0a5c785ac6db
+  tool_panel_section_label: BED
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: freebayes
   owner: devteam
   revisions:
@@ -193,20 +199,20 @@ tools:
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
   revisions:
-  - b1bc53e9bbc5
+  - 4d3eff1bc421
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
   revisions:
-  - 1865e693d8b2
+  - 3e4d45aca422
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
   revisions:
-  - 46066df8813d
+  - 63d5652be07a
 - name: data_manager_snpeff
   owner: iuc
   revisions:
-  - d107d20dc6bd
+  - def511e8e005
 - name: data_manager_gemini_database_downloader
   owner: iuc
   revisions:
-  - f57426daa04d
+  - 52b6a4d98009
