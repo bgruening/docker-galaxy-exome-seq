@@ -1,4 +1,3 @@
-![GHA testing](https://github.com/bgruening/docker-galaxy-exome-seq/workflows/Test%20Docker%20image%20building/badge.svg?branch=master)
 [![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-exome-seq/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-exome-seq)
 [![Gitter](https://badges.gitter.im/bgruening/docker-galaxy-stable.svg)](https://gitter.im/bgruening/docker-galaxy-stable?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
@@ -21,13 +20,13 @@ parent image, in particular:
 
 - the image is based on Ubuntu 18.04 LTS
 - it uses PostgreSQL version 11.5, which means **users of the previous
-  miracum_19.01 image will have to migrate their database to this new
+  ``miracum_19.01`` image will have to migrate their database to this new
   version**.
 - The preconfigured Galaxy ``admin`` user has the password ``password`` and
-  the API key ``fakekey`` (users of miracum_19.01: both the password and the
-  API key have changed compared to the old version.
+  the API key ``fakekey`` (for users of ``miracum_19.01``: note that both the
+  password and the API key have changed compared to the old version).
 
-For users of the previous miracum_19.01 image the processes of upgrading
+For users of the previous ``miracum_19.01`` image the processes of upgrading
 Galaxy to the new version and of upgrading the postgreSQL database are
 described in the
 [Upgrading images](https://github.com/bgruening/docker-galaxy-stable/blob/20.09/README.md#upgrading-images--toc)
