@@ -8,7 +8,7 @@ ENV GALAXY_CONFIG_BRAND MIRACUM Genomic Variant Analysis
 ENV GALAXY_CONFIG_SANITIZE_ALL_HTML false
 
 # MIRACUM-style PDF Reports
-ADD markdown_export.css $GALAXY_CONFIG_DIR/markdown_export.css
+ADD markdown_export.css $GALAXY_ROOT/config/markdown_export.css
 
 # Install tools
 ADD data_managers.yaml $GALAXY_ROOT/data_managers.yaml
